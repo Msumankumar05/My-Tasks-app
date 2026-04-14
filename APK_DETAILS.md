@@ -1,8 +1,8 @@
-# 📱 Smart Tasks APK - Installation & Details
+# 📱 My Tasks APK - Installation & Details
 
 ## 🎉 What You're Getting
 
-**Smart Tasks** - A modern to-do list application for Android
+**My Tasks** - A modern to-do list application for Android
 
 - **File Name:** `SmartTasks-v1.0-debug.apk`
 - **Size:** ~16.5 MB
@@ -24,6 +24,21 @@
 6. **Done!** The app is now on your phone
 
 > **Note:** You may need to enable "Install from Unknown Sources" in Settings → Security
+
+### Method 2: Using ADB (Android Debug Bridge)
+
+If you have Android SDK installed:
+
+```bash
+adb install SmartTasks-v1.0-debug.apk
+```
+
+### Method 3: Android Studio Emulator
+
+1. Open Android Studio
+2. Launch an emulator (API 24+)
+3. Drag & drop the APK into the emulator window
+4. Wait for installation
 
 ---
 
@@ -74,10 +89,10 @@ The app includes beautiful screens for:
 
 ### "App not installed" error
 - You may have a lower version installed. Uninstall it first
-- Try it again
+- Try Method 2 (ADB install) instead
 
 ### Reminders not working
-- Check notification settings for Smart Tasks
+- Check notification settings for My Tasks
 - Ensure alarm permission is granted
 - Restart the app
 
@@ -126,7 +141,7 @@ The app includes beautiful screens for:
 ## 🚀 Next Steps
 
 1. **Install** the APK using one of the methods above
-2. **Launch** Smart Tasks from your app drawer
+2. **Launch** My Tasks from your app drawer
 3. **Create** your first task
 4. **Enjoy!** 📝
 
