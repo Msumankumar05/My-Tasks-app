@@ -1,6 +1,6 @@
-# 📱 Smart Tasks - To-Do List Android App
+# 📱 My Tasks - To-Do List Android App
 
-**Smart Tasks** is a modern, feature-rich to-do list application for Android.
+**My Tasks** is a modern, feature-rich to-do list application for Android.
 
 > **Status:** ✅ Ready to Use | **Platform:** Android 7.0+ | **Size:** ~16.5 MB
 
@@ -83,7 +83,7 @@ See [PRIVACY_POLICY.md](PRIVACY_POLICY.md) for details.
 ## 🚀 Getting Started
 
 1. **Install** - See [INSTALLATION.md](INSTALLATION.md)
-2. **Launch** - Open Smart Tasks from app drawer
+2. **Launch** - Open My Tasks from app drawer
 3. **Create** - Tap "+" to add your first task
 4. **Organize** - Set dates, times, and reminders
 5. **Enjoy** - Stay productive! 📝
@@ -91,8 +91,6 @@ See [PRIVACY_POLICY.md](PRIVACY_POLICY.md) for details.
 ---
 
 ## 📖 Full Documentation
-
-- 📥 [INSTALLATION.md](INSTALLATION.md) - How to install
 - 📊 [APK_DETAILS.md](APK_DETAILS.md) - Technical details
 - 🔒 [PRIVACY_POLICY.md](PRIVACY_POLICY.md) - Privacy information
 
