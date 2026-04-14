@@ -25,21 +25,6 @@
 
 > **Note:** You may need to enable "Install from Unknown Sources" in Settings → Security
 
-### Method 2: Using ADB (Android Debug Bridge)
-
-If you have Android SDK installed:
-
-```bash
-adb install SmartTasks-v1.0-debug.apk
-```
-
-### Method 3: Android Studio Emulator
-
-1. Open Android Studio
-2. Launch an emulator (API 24+)
-3. Drag & drop the APK into the emulator window
-4. Wait for installation
-
 ---
 
 ## ✨ App Features
@@ -89,7 +74,7 @@ The app includes beautiful screens for:
 
 ### "App not installed" error
 - You may have a lower version installed. Uninstall it first
-- Try Method 2 (ADB install) instead
+- Try it again
 
 ### Reminders not working
 - Check notification settings for Smart Tasks
