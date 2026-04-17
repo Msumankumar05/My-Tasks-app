@@ -18,6 +18,17 @@
 
 ---
 
+## 🖼️ App Screenshots
+
+The app includes beautiful screens for:
+- Task List Management
+- Add/Edit Tasks with date/time pickers
+- Calendar view
+- Settings configuration
+- Dark mode support
+
+---
+
 ## 📥 Installation
 
 ### Quick Start
