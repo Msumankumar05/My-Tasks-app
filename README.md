@@ -1,151 +1,278 @@
-# 📱 My Tasks - To-Do List Android App
+<div align="center">
 
-**My Tasks** is a modern, feature-rich to-do list application for Android.
+<!-- Header -->
+<img src="https://img.shields.io/badge/✅-My_Tasks-1a1a2e?style=for-the-badge&labelColor=16213e&color=0f3460" alt="My Tasks" height="40">
 
-> **Status:** ✅ Ready to Use | **Platform:** Android 7.0+ | **Size:** ~16.5 MB
+# 📱 My Tasks — Smart To-Do List
+
+**Stay organized. Stay productive. Stay ahead.**
+
+A beautifully crafted, feature-rich task management app for Android — built with Jetpack Compose & Material 3.
+
+[![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#-device-requirements)
+[![API](https://img.shields.io/badge/Min_API-24+-brightgreen?style=for-the-badge&logo=android&logoColor=white)](#-device-requirements)
+[![Version](https://img.shields.io/badge/Version-1.0-0078D4?style=for-the-badge)](#-changelog)
+[![License](https://img.shields.io/badge/License-MIT-F7DF1E?style=for-the-badge)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/Msumankumar05/My-Tasks-app?style=for-the-badge&logo=github&color=yellow)](https://github.com/Msumankumar05/My-Tasks-app/stargazers)
+[![Release](https://img.shields.io/github/v/release/Msumankumar05/My-Tasks-app?style=for-the-badge&color=red&label=Latest)](https://github.com/Msumankumar05/My-Tasks-app/releases/latest)
+
+---
+
+### 📥 Download Now
+
+<a href="https://github.com/Msumankumar05/My-Tasks-app/releases/latest">
+  <img src="https://img.shields.io/badge/⬇️_Download_APK-v1.0_•_16.5_MB-00C853?style=for-the-badge&logoColor=white" alt="Download APK" height="55">
+</a>
+
+<br>
+<sub>✅ No ads • 🔒 No tracking • 📵 Works offline • 🆓 100% Free</sub>
+
+---
+
+### 🖼️ Screenshots
+
+<img src="images/_3956_Screenshot_2026-04-17-11-32-20-40_0c1cf1fd2f8ceaa9f0b42fd73d9d0063__620_Screenshot_2026-04-15-00-43-_.-15-00-43-15-84_0c1cf1fd2f8ceaa9f0b42fd73d9d0063__3619_Screenshot_2026-04-15-00-43-05-63_0c1.jpeg" alt="My Tasks App Screenshots" width="800">
+
+<sub><i>Task List • Add/Edit Task with Date & Time • Calendar View</i></sub>
+
+</div>
+
+---
+
+## 📋 Table of Contents
+
+- [✨ Features](#-features)
+- [📥 Installation](#-installation)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📊 App Info](#-app-info)
+- [🔒 Privacy & Security](#-privacy--security)
+- [📱 Device Requirements](#-device-requirements)
+- [🐛 Troubleshooting](#-troubleshooting)
+- [🤝 Contributing](#-contributing)
+- [👤 Developer](#-developer)
+- [📄 License](#-license)
 
 ---
 
 ## ✨ Features
 
-- ✅ **Create & Manage Tasks** - Organize your daily tasks efficiently
-- 📅 **Due Date & Time** - Set deadlines for your tasks
-- ⏰ **Smart Reminders** - Get notified before task deadlines
-- 📆 **Calendar View** - Visualize tasks by date
-- 🌙 **Dark Mode** - Eye-friendly dark theme support
-- ⚙️ **Customizable Settings** - Personalize your experience
-- 💾 **Persistent Storage** - All tasks saved locally on your device
-
----
-
-## 🖼️ App Screenshots
-![image alt](https://github.com/Msumankumar05/My-Tasks-app/blob/4a4321d63de3f41bfb145699859077a808aecc6b/images/_3956_Screenshot_2026-04-17-11-32-20-40_0c1cf1fd2f8ceaa9f0b42fd73d9d0063__620_Screenshot_2026-04-15-00-43-_.-15-00-43-15-84_0c1cf1fd2f8ceaa9f0b42fd73d9d0063__3619_Screenshot_2026-04-15-00-43-05-63_0c1.jpeg)
-The app includes beautiful screens for:
-- Task List Management
-- Add/Edit Tasks with date/time pickers
-- Calendar view
-- Settings configuration
-- Dark mode support
+| Feature | Description |
+|:--------|:------------|
+| ✅ **Task Management** | Create, edit, delete, and organize your daily tasks with ease |
+| 📅 **Due Date & Time** | Set precise deadlines using a beautiful 12-hour time picker |
+| ⏰ **Smart Reminders** | Receive push notifications before task deadlines so you never miss anything |
+| 📆 **Calendar View** | Visualize all your tasks on an interactive calendar |
+| 🌙 **Dark Mode** | Stunning dark theme that's easy on the eyes — switches seamlessly |
+| ⚙️ **Customizable Settings** | Personalize the app to match your workflow |
+| 💾 **Offline Storage** | All tasks stored locally with Room Database — no internet needed |
+| ⚡ **Overdue Detection** | Automatically flags tasks not completed within 15 minutes of their deadline |
 
 ---
 
 ## 📥 Installation
 
-### Quick Start
-1. Download `My Tasks.apk`
-2. Install on your Android device
-3. Launch and start organizing tasks!
+### Quick Install (Recommended)
+
+1. **📥 [Download the latest APK](https://github.com/Msumankumar05/My-Tasks-app/releases/latest)** from the Releases page
+2. **📲 Transfer** the APK to your Android phone (or download directly on phone)
+3. **📂 Open** your file manager and tap the APK file
+4. **✅ Tap "Install"** when prompted
+5. **🚀 Launch** "My Tasks" from your app drawer
+
+> [!NOTE]
+> You may need to enable **"Install from Unknown Sources"** in your phone's **Settings → Security** to install the APK.
+
+### For Developers
+
+```bash
+# Clone the repository
+git clone https://github.com/Msumankumar05/My-Tasks-app.git
+
+# Open in Android Studio and build
+# Target SDK: 36 | Min SDK: 24
+```
 
 ---
 
-## 📋 App Information
+## 🛠️ Tech Stack
 
-| Item | Details |
-|------|---------|
-| **Package Name** | com.example.to_dolistapp |
-| **Minimum Android** | 7.0 (API 24) |
-| **Target Android** | 15 (API 36) |
-| **Version** | 1.0 |
-| **File Size** | ~16.5 MB |
-| **Status** | ✅ Production Ready |
+<div align="center">
+
+| Technology | Purpose |
+|:----------:|:--------|
+| ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) | Primary Language |
+| ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white) | Modern Declarative UI |
+| ![Material 3](https://img.shields.io/badge/Material_3-757575?style=flat-square&logo=materialdesign&logoColor=white) | Design System |
+| ![Room](https://img.shields.io/badge/Room_Database-003B57?style=flat-square&logo=sqlite&logoColor=white) | Local Persistent Storage |
+| ![MVVM](https://img.shields.io/badge/MVVM-FF6F00?style=flat-square&logo=android&logoColor=white) | Architecture Pattern |
+
+</div>
 
 ---
 
-## 🎯 What You Get
+## 📊 App Info
 
-- ✅ Fully functional to-do list app
-- ✅ Beautiful Jetpack Compose UI
-- ✅ Offline-first (no internet needed)
-- ✅ Private (no data collection)
-- ✅ Dark mode support
-- ✅ Reminder notifications
-- ✅ Calendar integration
+<div align="center">
+
+| Property | Details |
+|:---------|:--------|
+| **📦 Package Name** | `com.example.to_dolistapp` |
+| **📱 Min Android** | 7.0 Nougat (API 24) |
+| **🎯 Target Android** | 15 (API 36) |
+| **🏷️ Version** | 1.0 |
+| **📏 APK Size** | ~16.5 MB |
+| **🔧 Build Type** | Debug |
+| **📅 Last Updated** | May 2026 |
+| **✅ Status** | Production Ready |
+
+</div>
+
+> For detailed technical information, see [APK_DETAILS.md](APK_DETAILS.md)
 
 ---
 
 ## 🔒 Privacy & Security
 
-- 🔐 **No Sign-up Required** - Use immediately
-- 🌐 **Offline Only** - Works without internet
-- 🚫 **No Ads** - Clean experience
-- 📵 **No Tracking** - Your data is yours
-- 💾 **Local Storage** - Everything saved on your device
+We take your privacy seriously. **My Tasks** is designed to be completely private:
 
-See [PRIVACY_POLICY.md](PRIVACY_POLICY.md) for details.
+| | Privacy Feature |
+|:--:|:-------|
+| 🔐 | **No Sign-up Required** — Use the app immediately, no account needed |
+| 🌐 | **100% Offline** — Works without any internet connection |
+| 🚫 | **Zero Ads** — Clean, distraction-free experience |
+| 📵 | **No Tracking** — No analytics, no telemetry, no data collection |
+| 💾 | **Local Storage Only** — Your tasks never leave your device |
+| 🛡️ | **No Permissions Abuse** — Only requests necessary permissions |
+
+> 📄 Read our full [Privacy Policy](PRIVACY_POLICY.md) for complete details.
 
 ---
 
 ## 📱 Device Requirements
 
-**Minimum:**
-- Android 7.0 or higher
-- 50 MB free storage
-- 1 GB RAM
-
-**Supported Devices:**
-- Phones (all sizes)
-- Tablets
-- Emulators (API 24+)
-
----
-
-## 🚀 Getting Started
-
-1. **Install** - See [INSTALLATION.md](INSTALLATION.md)
-2. **Launch** - Open My Tasks from app drawer
-3. **Create** - Tap "+" to add your first task
-4. **Organize** - Set dates, times, and reminders
-5. **Enjoy** - Stay productive! 📝
-
----
-
-## 📖 Full Documentation
-- 📊 [APK_DETAILS.md](APK_DETAILS.md) - Technical details
-- 🔒 [PRIVACY_POLICY.md](PRIVACY_POLICY.md) - Privacy information
+<table>
+  <tr>
+    <th>Requirement</th>
+    <th>Minimum</th>
+    <th>Recommended</th>
+  </tr>
+  <tr>
+    <td><strong>Android Version</strong></td>
+    <td>7.0 Nougat (API 24)</td>
+    <td>10.0+ (API 29+)</td>
+  </tr>
+  <tr>
+    <td><strong>Storage</strong></td>
+    <td>50 MB free</td>
+    <td>100 MB free</td>
+  </tr>
+  <tr>
+    <td><strong>RAM</strong></td>
+    <td>1 GB</td>
+    <td>2 GB+</td>
+  </tr>
+  <tr>
+    <td><strong>Devices</strong></td>
+    <td colspan="2">📱 Phones • 📟 Tablets • 💻 Emulators (API 24+)</td>
+  </tr>
+</table>
 
 ---
 
 ## 🐛 Troubleshooting
 
-**Installation fails?**
-- Ensure Android 7.0+
-- Free up 50 MB storage
-- See [INSTALLATION.md](INSTALLATION.md)
+<details>
+<summary><strong>❌ Installation fails or "Parse Error"</strong></summary>
 
-**App crashes?**
-- Restart your device
+- Ensure your device runs **Android 7.0 or higher**
+- Free up at least **50 MB** of storage
+- Enable **"Install from Unknown Sources"** in Settings → Security
+- Try re-downloading the APK file
+
+</details>
+
+<details>
+<summary><strong>💥 App crashes on launch</strong></summary>
+
+- Restart your device and try again
 - Reinstall the APK
-- Check device storage
+- Ensure you have enough free storage space
+- Clear the app's cache in Settings → Apps → My Tasks → Storage
 
-**Reminders not working?**
-- Allow notification permissions
-- Check phone alarm settings
-- Restart the app
+</details>
+
+<details>
+<summary><strong>🔔 Reminders not working</strong></summary>
+
+- Grant **notification permissions** when prompted (or via Settings → Apps → My Tasks → Notifications)
+- Check that **"Do Not Disturb"** mode is off
+- Ensure the app is not being killed by battery optimization
+- On Xiaomi/Samsung: Allow the app to **auto-start** in battery settings
+
+</details>
+
+<details>
+<summary><strong>🌙 Dark mode not switching</strong></summary>
+
+- Go to the app's **Settings** screen
+- Toggle the dark mode switch
+- If following system theme, check your phone's system-wide dark mode setting
+
+</details>
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Whether it's bug reports, feature requests, or pull requests — all input is valued.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## 📝 Changelog
+
+### v1.0 — Initial Release (April 2026)
+- ✅ Task creation, editing, and deletion
+- 📅 Date and 12-hour time picker
+- ⏰ Push notification reminders
+- 📆 Calendar view integration
+- 🌙 Dark mode support
+- ⚙️ Settings screen
+- 💾 Room Database local storage
+- ⚡ Overdue task detection (15-minute threshold)
 
 ---
 
 ## 👤 Developer
 
-**Created by:** Ms. Kumar  
-**Email:** ms.kumar.developer05@gmail.com  
-**Built:** April 2026
+<div align="center">
+
+**M. Suman Kumar**
+
+[![Email](https://img.shields.io/badge/Email-ms.kumar.developer05@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ms.kumar.developer05@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Msumankumar05-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Msumankumar05)
+
+</div>
 
 ---
 
 ## 📄 License
 
-[Your License Here]
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License — Copyright (c) 2026 M. Suman Kumar
+```
 
 ---
 
-## 🙏 Feedback
+<div align="center">
 
-Questions or suggestions?
-- 📧 Email: ms.kumar.developer05@gmail.com
-- 🐙 Visit GitHub: https://github.com/Msumankumar05/-smart-tasks-app
+### ⭐ Star this repo if you found it useful!
 
----
+**Made with ❤️ in India**
 
-**Last Updated:** April 14, 2026  
-**Current Version:** 1.0  
-**Status:** ✅ Ready to Use
+<sub>Last Updated: May 2026 • Version 1.0 • Status: ✅ Production Ready</sub>
+
+</div>

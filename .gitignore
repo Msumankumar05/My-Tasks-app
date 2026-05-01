@@ -1,0 +1,27 @@
+# Built APK files (kept in /apk directory intentionally)
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Android specific
+*.hprof
+*.log
