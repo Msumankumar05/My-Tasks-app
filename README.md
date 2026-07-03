@@ -248,7 +248,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 <div align="center">
 
-**M. Suman Kumar**
+**Makoju Suman Kumar**
 
 [![Email](https://img.shields.io/badge/Email-ms.kumar.developer05@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ms.kumar.developer05@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Msumankumar05-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Msumankumar05)
@@ -262,7 +262,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ```
-MIT License — Copyright (c) 2026 M. Suman Kumar
+MIT License — Copyright (c) 2026 Makoju Suman Kumar
 ```
 
 ---
